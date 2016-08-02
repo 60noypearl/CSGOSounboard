@@ -1,0 +1,42 @@
+<resources>
+
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="Theme.AppCompat.Light">
+        <item name="android:imageButtonStyle">@style/ibStyle</item>
+
+
+        <!--<item name="android:navigationBarColor">#3d5afe</item>-->
+
+
+
+
+        <!-- Customize your theme here. -->
+    </style>
+
+    <style name="MyActionBar" parent="Widget.AppCompat.ActionBar">
+        <item name="theme">@style/MyToolbarTextStyle</item>
+
+    </style>
+
+    <style name="MyToolbarTextStyle" parent="ThemeOverlay.AppCompat.ActionBar">
+    </style>
+
+    <style name="ibSounds">
+        <!--<item name="android:paddingLeft">-->
+        <!--5dp-->
+        <!--</item>-->
+
+        <!--<item name="android:paddingRight">-->
+        <!--5dp-->
+        <!--</item>-->
+
+
+
+    </style>
+
+    <style name="ibStyle" parent="android:Widget.ImageButton">
+        <item name="android:scaleType">fitXY</item>
+        <item name="android:adjustViewBounds">true</item>
+    </style>
+
+</resources>
